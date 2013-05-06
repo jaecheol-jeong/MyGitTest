@@ -140,6 +140,7 @@
 		193BF15F17368D2B001721C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 193BF15E17368D2B001721C8 /* AppDelegate.m */; };
 		193BF16217368D2B001721C8 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 193BF16117368D2B001721C8 /* HelloWorldLayer.m */; };
 		193BF16517368D2B001721C8 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 193BF16417368D2B001721C8 /* IntroLayer.m */; };
+		B81187941737EF950018356A /* GameMainLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B81187931737EF950018356A /* GameMainLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -422,6 +423,8 @@
 		193BF16117368D2B001721C8 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		193BF16317368D2B001721C8 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		193BF16417368D2B001721C8 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		B81187921737EF950018356A /* GameMainLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMainLayer.h; sourceTree = "<group>"; };
+		B81187931737EF950018356A /* GameMainLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMainLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -491,6 +494,8 @@
 				193BEFD017368D25001721C8 /* Resources */,
 				193BEFE817368D25001721C8 /* libs */,
 				193BF15917368D2B001721C8 /* Supporting Files */,
+				B81187921737EF950018356A /* GameMainLayer.h */,
+				B81187931737EF950018356A /* GameMainLayer.m */,
 			);
 			path = SimpleGameEx1;
 			sourceTree = "<group>";
@@ -1057,6 +1062,7 @@
 				193BF15F17368D2B001721C8 /* AppDelegate.m in Sources */,
 				193BF16217368D2B001721C8 /* HelloWorldLayer.m in Sources */,
 				193BF16517368D2B001721C8 /* IntroLayer.m in Sources */,
+				B81187941737EF950018356A /* GameMainLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1162,6 +1168,7 @@
 				193BF16A17368D2B001721C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
